@@ -1,0 +1,183 @@
+/*Page settings*/
+
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #161616;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(78, 78, 78);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(44, 44, 44);
+}
+
+::-webkit-scrollbar-corner {
+    background: #161616;
+}
+
+/* Dashed border */
+hr.dashed {
+    border-top: 3px dashed #bbb;
+}
+
+/* Dotted border */
+hr.dotted {
+    border-top: 3px dotted #bbb;
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin-right: 6%;
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+
+/*header*/
+
+.grid-head {
+    display: grid;
+    width: 100%;
+    height: 125px;
+    align-items: center;
+}
+
+.header {
+    border-bottom: 1px #808080 solid;
+    max-height: 120px;
+    grid-template-columns: minmax(900px 1280px);
+    grid-row: 2 / span 6;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+}
+
+
+.header p {
+    color: white;
+    font-size: medium;
+    font-family: Georgia;
+    font-size: 35px;
+}
+
+h6 {
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+}
+
+/*Content*/
+
+.grid-content {
+    display: grid;
+    width: 83%;
+    margin-left: 1px;
+    height: 80%;
+    grid-template-columns: 30% 30% 30% 30%;
+}
+
+.content {
+    border: 3px rgb(0, 0, 0) solid;
+    overflow: scroll;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.content h1 {
+    text-decoration: underline;
+}
+
+.content p {
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.x {
+    grid-column-start: 1;
+    background-color: rgb(61, 61, 61);
+}
+
+.x img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+#quote {
+    font-size: 20px;
+    font-style: sans-serif;
+}
+
+.y {
+    grid-column-start: 2;
+    background-color: rgb(61, 61, 61);
+}
+
+.z {
+    grid-column-start: 3;
+    background-color: rgb(61, 61, 61);
+}
+
+.v {
+    grid-column-start: 4;
+    background-color: rgb(61, 61, 61);
+}
+
+.v img {
+    height: 100px;
+    width: 150px;
+}
+
+.v p {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.v h1 {
+    font-size: 40px;
+}
+
+ul {
+    font-size: 20px;
+    margin-left: -15px;
+    text-align: left;
+}
+
+.abcd {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+#thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: 20%;
+    border-radius: 3px;
+    border-spacing: 3px;
+    width: 300px;
+    height: 170px;
+    border: 2px white solid;
+}
+
+#thumbnail:hover{
+    filter: brightness(50%)
+}
